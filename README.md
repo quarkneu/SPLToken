@@ -9,7 +9,32 @@ This repo contains SPL token program, which implements four interfaces:
 
 ## Installation
 
-- Rust
-- Solana
-- Yarn
-- Anchor
+- Rust: 1.74.0
+- Solana: 1.18.0
+- Yarn: 1.22.19
+- Anchor: 0.29.0
+
+## Quickstart
+
+Clone the repository and enter the source code directory.
+
+```shell
+git clone https://github.com/quarkneu/SPLToken.git
+cd SPLToken
+```
+
+Build
+
+```shell
+anchor build
+```
+
+After building, the smart contract files are all located in the target directory.
+
+Deploy
+
+```shell
+anchor deploy
+```
+
+Attention, check your configuration and confirm the environment you want to deploy.
